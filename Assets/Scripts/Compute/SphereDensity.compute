@@ -1,0 +1,33 @@
+﻿#pragma kernel Sphere
+
+RWStructuredBuffer<float> points;
+int numPointsPerAxis;
+float boundsSize;
+float3 centre;
+float3 hitpos;
+float spacing;
+float radius;
+float force;
+
+static const int numThreads = 8;
+
+int indexFromCoord(uint x, uint y, uint z) {
+	return z * numPointsPerAxis * numPointsPerAxis + y * numPointsPerAxis + x;
+}
+
+[numthreads(numThreads,numThreads,numThreads)]
+void Sphere(uint3 id : SV_DispatchThreadID)
+{
+	float3 pos = centre + id * spacing - boundsSize / 2;
+    if (id.x >= numPointsPerAxis || id.y >= numPointsPerAxis || id.z >= numPointsPerAxis || (distance(hitpos, pos) > radius)) {
+        return;
+    }
+
+    
+
+    // float density = points[index] + force*(radius - distance(hitpos, pos))/radius;
+	
+    int index = indexFromCoord(id.x,id.y,id.z);
+	float density = points[index] + force * (radius - distance(hitpos, pos)) / radius;
+    points[index] = density;
+}

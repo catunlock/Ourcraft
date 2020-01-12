@@ -1,0 +1,1828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ChangeFaces" Collapsed="true">
+    <Position X="59.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAABCIAAAAAAAAAAAAAAAGAAAAAAAACAARBAAA=</HashCode>
+      <FileName>Assets\Character Resources\Medieval_Toon_Character\Source\Scripts\ChangeFaces.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Character_Animations" Collapsed="true">
+    <Position X="61.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAggAAAiAAAAAAAAAAAAAAAAAAAAAAQBAAAAAAAAA=</HashCode>
+      <FileName>Assets\Character Resources\Medieval_Toon_Character\Source\Scripts\Character_Animations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FaceAnimations" Collapsed="true">
+    <Position X="54.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAADAACAAAAAAAAAIAgACAAQQCAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Character Resources\Medieval_Toon_Character\Source\Scripts\FaceAnimations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlayFaceAnimations" Collapsed="true">
+    <Position X="49" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAACAAAAAAAAAAAAACAAAAAgAEAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Character Resources\Medieval_Toon_Character\Source\Scripts\PlayFaceAnimations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimationManagerUI" Collapsed="true">
+    <Position X="49" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACDEAAQgIFeBBCAACEgAOBCBgAEAECQIABBAAkAA=</HashCode>
+      <FileName>Assets\Character Resources\SapphiArt\SapphiArtchan\Scripts\AnimationManagerUI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SapphiArtChan_AnimManager" Collapsed="true">
+    <Position X="54.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQSASAAACKQCBAQBsAlogACAQEAQAwCFDBACAAoEJA=</HashCode>
+      <FileName>Assets\Character Resources\SapphiArt\SapphiArtchan\Scripts\SapphiArtChan_AnimManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombieCameraLogic" Collapsed="true">
+    <Position X="61.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAABAAAAIQAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Character Resources\Supercyan Character Pack Zombie Sample\Scripts\ZombieCameraLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombieCharacterControl" Collapsed="true">
+    <Position X="63" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAQIAAgAAAACCAFAAAAIIAAAAAAAAAAAAgAACAEA=</HashCode>
+      <FileName>Assets\Character Resources\Supercyan Character Pack Zombie Sample\Scripts\ZombieCharacterControl.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ZombieFree" Collapsed="true">
+    <Position X="64.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQACIAAAAAAAAAAAAAAAAAAAAAAACgAAAAAAA=</HashCode>
+      <FileName>Assets\Character Resources\Supercyan Character Pack Zombie Sample\Scripts\ZombieFree.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DayNightCycle" Collapsed="true">
+    <Position X="61.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAACCAAAAAQCAAAAAIQAAAAAAAAQAgQAEIAAgg=</HashCode>
+      <FileName>Assets\DayNightCycle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animal" Collapsed="true">
+    <Position X="13.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>RgwBiABgBCDCABJVAAEAAAAEIDgASAACAggAECYIBkA=</HashCode>
+      <FileName>Assets\Game Entities\AnimalGameEntity\Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LookingForResources" Collapsed="true">
+    <Position X="26" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\AnimalGameEntity\AnimalOwnedStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EvadeAttacker" Collapsed="true">
+    <Position X="30.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\AnimalGameEntity\AnimalOwnedStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Reproduce" Collapsed="true">
+    <Position X="35" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAACAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\AnimalGameEntity\AnimalOwnedStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BaseGameEntity" Collapsed="true">
+    <Position X="7.75" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgwAgABIBSAAiASAAACAAAgQBCAAEAAIAAAAAAAAAgg=</HashCode>
+      <FileName>Assets\Game Entities\BaseGameEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EntityManager" Collapsed="true">
+    <Position X="49" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAQAABAAAAAABAAAAAQAAAAAAAQAA=</HashCode>
+      <FileName>Assets\Game Entities\EntityManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="State&lt;entity_type&gt;" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAAAEAAAAIACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\FSM\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMachine&lt;entity_type&gt;" Collapsed="true">
+    <Position X="61.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEABAAJAAhAAAIAAAACAAAAAIAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\FSM\StateMachine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanGameEntity" Collapsed="true">
+    <Position X="4.5" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAwBAABACDgAAExEABQgAAAkBAggAAAAIQAAIiAQAQA=</HashCode>
+      <FileName>Assets\Game Entities\HumanGameEntity\HumanGameEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanMayor" Collapsed="true">
+    <Position X="2.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQABIRAACCEEhAACAAoASKEBCAAAIJBIEAAAYkQWEQ=</HashCode>
+      <FileName>Assets\Game Entities\HumanGameEntity\HumanMayor\HumanMayor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanMayorRest" Collapsed="true">
+    <Position X="3.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\HumanGameEntity\HumanMayor\HumanMayorStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanMayorFleeFromAggressorState" Collapsed="true">
+    <Position X="5.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\HumanGameEntity\HumanMayor\HumanMayorStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanMayorDeath" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\HumanGameEntity\HumanMayor\HumanMayorStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanMayorInteractPlayer" Collapsed="true">
+    <Position X="12.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\HumanGameEntity\HumanMayor\HumanMayorStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RandomWords" Collapsed="true">
+    <Position X="64.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABQgBAQAAAACAAAAAAAIAAARgEAAWAQAIQAAQABAAEA=</HashCode>
+      <FileName>Assets\Game Entities\HumanGameEntity\HumanMayor\RandomWords.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanMerchant" Collapsed="true">
+    <Position X="4.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABKRggCCFEhgAAAAoACAABCAAAIKAIAAAAYkQAEA=</HashCode>
+      <FileName>Assets\Game Entities\HumanGameEntity\HumanMerchant\HumanMerchant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanMerchantRest" Collapsed="true">
+    <Position X="21.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\HumanGameEntity\HumanMerchant\HumanMerchantStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanMerchantFleeFromAggressorState" Collapsed="true">
+    <Position X="23.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\HumanGameEntity\HumanMerchant\HumanMerchantStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanMerchantDeath" Collapsed="true">
+    <Position X="28.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\HumanGameEntity\HumanMerchant\HumanMerchantStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanMerchantInteractPlayer" Collapsed="true">
+    <Position X="32.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\HumanGameEntity\HumanMerchant\HumanMerchantStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanVillager" Collapsed="true">
+    <Position X="6.75" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQABKRggiCFEhgAAAAoACAABCAAAIKAIAAAAYkQAEA=</HashCode>
+      <FileName>Assets\Game Entities\HumanGameEntity\HumanVillager\HumanVillager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanVillagerRest" Collapsed="true">
+    <Position X="37.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\HumanGameEntity\HumanVillager\HumanVillagerStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanVillagerFleeFromAggressorState" Collapsed="true">
+    <Position X="39.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\HumanGameEntity\HumanVillager\HumanVillagerStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HumanVillagerDeath" Collapsed="true">
+    <Position X="41.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\HumanGameEntity\HumanVillager\HumanVillagerStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MessageDispatcher" Collapsed="true">
+    <Position X="64.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ACQAAAAAAAAGAAAAAABAAAAIAAAAAAAQAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Game Entities\MessageDispatcher.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NullGameEntity" Collapsed="true">
+    <Position X="9" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAABAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\NullGameEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StayUp" Collapsed="true">
+    <Position X="63" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\StayUp.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Telegram" Collapsed="true">
+    <Position X="49" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAQAAAAAAAQQ=</HashCode>
+      <FileName>Assets\Game Entities\Telegram.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zombie" Collapsed="true">
+    <Position X="11.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>NAwAAIDEACKEAAAMIAkAEAgFADAAA4AAQABIEARQAEA=</HashCode>
+      <FileName>Assets\Game Entities\ZombieGameEntity\Zombie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LookingForLivingBeing" Collapsed="true">
+    <Position X="10.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\ZombieGameEntity\ZombieOwnedStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FollowLivingBeing" Collapsed="true">
+    <Position X="14.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\ZombieGameEntity\ZombieOwnedStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AttackLivingBeing" Collapsed="true">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\ZombieGameEntity\ZombieOwnedStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Die" Collapsed="true">
+    <Position X="19.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAAAAAAAAAAABEAAAAYACAAAAAAAA=</HashCode>
+      <FileName>Assets\Game Entities\ZombieGameEntity\ZombieOwnedStates.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OrbitAroundTarget" Collapsed="true">
+    <Position X="61.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\MobilityArts\SciFiHandGun\Scripts\OrbitAroundTarget.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MouseLook" Collapsed="true">
+    <Position X="50.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAAACAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Assets\MouseLook.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Movement" Collapsed="true">
+    <Position X="52.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAQAAAgAACAAAQAAAAAAIAAMAAAAAQAIAASAAAIAAAA=</HashCode>
+      <FileName>Assets\Movement.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CloudMaster" Collapsed="true">
+    <Position X="64.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAACIJAAAAAAAIBBEBABiAyAgAggQEAAhAAAOBAAMQ=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Clouds\CloudMaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CloudNoise" Collapsed="true">
+    <Position X="66.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gkABAEAAAYAIAAAQgAEAAAIAQBAQAAZAAAAAAEwCAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Clouds\CloudNoise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NoiseGenerator" Collapsed="true">
+    <Position X="56" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gkABgAEAAoAIAAgABGGBQAQhAABACQZAAAABAQgyAAg=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Clouds\Noise\NoiseGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NoiseSettings" Collapsed="true">
+    <Position X="16.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAEAAAAAAAAAAQAAAAABAEAAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Clouds\Noise\NoiseSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Save3D" Collapsed="true">
+    <Position X="56" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAACAAACAAAAAAAAAAAAAAAAAAAAIgAAAAAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Clouds\Noise\Save\Save3D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplexNoiseSettings" Collapsed="true">
+    <Position X="16.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAQAAAAAACAEACAAAEAQAAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Clouds\Noise\SimplexNoiseSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WeatherMap" Collapsed="true">
+    <Position X="54.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>jAABAAAAAIBAAAAAAAAAACQAAACAAABCEAAAAQAAAQA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Clouds\Noise\WeatherMap.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WorleyNoiseSettings" Collapsed="true">
+    <Position X="59.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>FgABAAAAAABAQAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Clouds\Noise\WorleyNoiseSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Erosion" Collapsed="true">
+    <Position X="50.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQgAAgAAAAAQQEgAAgQCAgAAAAEAFoAAAAgAGAAACA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Terrain\Scripts\Erosion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HeightMapGenerator" Collapsed="true">
+    <Position X="66.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAQAIEAAAAAFAEAAAGAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Terrain\Scripts\HeightMapGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerrainGenerator" Collapsed="true">
+    <Position X="54.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEIGQgAAEAAAQAgAAASCAASAAAHAAgAQBAhQEBAACA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Terrain\Scripts\TerrainGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RayStepVis" Collapsed="true">
+    <Position X="66.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBQEIAgAAAAgAAAAAAAQgAAQAAAAEQAAAAAAAAABAkA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\Container Ray\RayStepVis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ContainerVis" Collapsed="true">
+    <Position X="56" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\ContainerVis.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FPSTest" Collapsed="true">
+    <Position X="59.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQGBCAAAQAAAAAAAAAAAAAACAIIAAAACEAAIIABAEA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\FPSTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageEffectTest" Collapsed="true">
+    <Position X="54.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BACAAAABAAAAAAIIAAAAAAAAAAAAAQEAAAAAAEBAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\Image Effect Test\ImageEffectTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LightConeTest" Collapsed="true">
+    <Position X="57.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAQAAAIAAAACAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\LightConeTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Noise" Collapsed="true">
+    <Position X="54.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAADAAAAAgIgwAAEAAAAAgCMCAgAAAAAAAAAAAADAAc=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\Noise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PerlinTileTest" Collapsed="true">
+    <Position X="63" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAAAAAAQABIAAIAAEACAAAEAgAAAAAABAAAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\PerlinTileTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PlaneAnimation" Collapsed="true">
+    <Position X="66.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BATAACEBADCgAAAAAAAAAAAAAEAAAgASkAAAAACAAAg=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\PlaneAnimation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplexMaster" Collapsed="true">
+    <Position X="63" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAABCAAAAQAQAEAAAAAAACAAAAAAAAAIAAAAQg=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\Simplex\SimplexMaster.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplexMaster2D" Collapsed="true">
+    <Position X="64.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAACAAAAQAQAAAAAAAAACAAAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\Simplex\SimplexMaster2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SimplexNoise" Collapsed="true">
+    <Position X="66.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAwAEBAAIAACAQCgMAAgAABAACAAAAAAAAAAAAABA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\SimplexNoise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TileWorleyTest" Collapsed="true">
+    <Position X="57.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>hQQFAQCGCIJCTAMEEAKCAiBBBAQBIiAEAACKJgBBgAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\TileWorleyTest.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Worley2D" Collapsed="true">
+    <Position X="57.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AASAAAAACAAAQAAAAFECAGAAEAAEAAAAAACAAAAICBg=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\Worley\Worley2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DynamicSkyLite" Collapsed="true">
+    <Position X="66.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQBAAAAAAAAAAAAAQAAAAAAAAAQAAABAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\Dynamic Sky Lite\DynamicSkyLite.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FPSCounter" Collapsed="true">
+    <Position X="57.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYIAAQCAAEAAAAAAAAAAAAQCAKEAAQABAAAAAAAEEA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\FPS Counter\FPSCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StFPS" Collapsed="true">
+    <Position X="64.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAAAAAAQAAAAAAARAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\FPS Counter\FPSCounter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExampleWheelController" Collapsed="true">
+    <Position X="52.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAIAAAAAAAQAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Rotation" Collapsed="true">
+    <Position X="52.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAoBAAAAAAAAAAAIAAAgAAQAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\Prefabs\Rotation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UINvjob" Collapsed="true">
+    <Position X="49" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQAAAAEQAAAAAgAAAAoAAAAAAAAAAAAAAAAABEA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\UI nvjob\UINvjob.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Water" Collapsed="true">
+    <Position X="52.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CgQAAAAAIAAEAAAAAAAAAAAAgAAAAAAAAAAAAAAADEA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Water Shader\Water.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WindZoneRot" Collapsed="true">
+    <Position X="56" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAAQAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Water Shader\WindZoneRot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chunk" Collapsed="true">
+    <Position X="63" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAEBhIAAAAAAAAgAABBACGCAAABDAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Chunk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ColourGenerator" Collapsed="true">
+    <Position X="50.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAEAAAAAAIAAAAQAAAAAAAAAgAAoAAAAACAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\ColourGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DensityGenerator" Collapsed="true">
+    <Position X="3" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAADAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Density\DensityGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NoiseDensity" Collapsed="true">
+    <Position X="1.75" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABCEAAAAQAAAAAAAIEAAAAIUAIIAAACAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Density\NoiseDensity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SphereDensity" Collapsed="true">
+    <Position X="4" Y="16" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Density\SphereDensity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ConditionalHideAttribute" Collapsed="true">
+    <Position X="52.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAEAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\Scripts\Helper\ConditionalHideAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MeshGenerator" Collapsed="true">
+    <Position X="61.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>YCSFFBAQHhBpEIAGAAEKAQCgBAEECEAAQYQABEABBEI=</HashCode>
+      <FileName>Assets\Scripts\MeshGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CamFollow" Collapsed="true">
+    <Position X="56" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAAIAAAKAEAAgAAAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\Scripts\Submarine\CamFollow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FreeCam" Collapsed="true">
+    <Position X="61.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAIAEAAAAQAAAAAAABAgEAAIAABAAAAAAAA=</HashCode>
+      <FileName>Assets\Scripts\Submarine\FreeCam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SeaWorldColours" Collapsed="true">
+    <Position X="57.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAFAAAAAAIAAAAQAAAAAAAAAAAAoAAAAACAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\Submarine\SeaWorldColours.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Submarine" Collapsed="true">
+    <Position X="66.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAOQQAAQhAAAEAACAAAAAABQQAAYAAABQAAA=</HashCode>
+      <FileName>Assets\Scripts\Submarine\Submarine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerrainColours" Collapsed="true">
+    <Position X="50.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAFAAAAAAIAAAAQAAAAAAAAAAAAoAAAAACAAgAAAA=</HashCode>
+      <FileName>Assets\Scripts\Terrain\TerrainColours.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TerrainEditor" Collapsed="true">
+    <Position X="52.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAIAiIAAAAIAAAAAQAAAAAAAAJAAAAAACAAAAA=</HashCode>
+      <FileName>Assets\Scripts\TerrainEditor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Shooting" Collapsed="true">
+    <Position X="59.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAABAAAQAAAAA=</HashCode>
+      <FileName>Assets\Shooting.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TreeGenerator" Collapsed="true">
+    <Position X="66.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQQAAAAACAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAiA=</HashCode>
+      <FileName>Assets\TreeGenerator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnderWaterController" Collapsed="true">
+    <Position X="50.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnderWaterController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityTickedQueue" Collapsed="true">
+    <Position X="54.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAYEBAAAAAAAAAAAEAAADAAARAACAAAAQgAgAAAACAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\TickedPriorityQueue\UnityTickedQueue.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ContainerOpener" Collapsed="true">
+    <Position X="54.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAAIAAAAAAAAAAAAAAAEBAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\Village\LowPoly\Medieval\Village\Scripts\ContainerOpener.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="InfiniteRotator" Collapsed="true">
+    <Position X="56" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAASCAAAAAAAAAAAAAAACAAAAAAACAAAAARAA=</HashCode>
+      <FileName>Assets\Village\LowPoly\Medieval\Village\Scripts\InfiniteRotator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ToggleScript" Collapsed="true">
+    <Position X="59.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAACgAAACAAAAAAAAAIAAAAAAAAAhAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Village\LowPoly\Medieval\Village\Scripts\ToggleScript.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CannonBehavior" Collapsed="true">
+    <Position X="57.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAQCAAAAAAAAAAAAAAQAAAAAAAAACAAAAAEAA=</HashCode>
+      <FileName>Assets\VolumetricLines\ExampleScenes\ExampleScripts\CannonBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CreateSinShapedLineStrip" Collapsed="true">
+    <Position X="57.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAGAACAAAAAAAAAAAAAAAAAAAAAQAAAAAQgAAAA=</HashCode>
+      <FileName>Assets\VolumetricLines\ExampleScenes\ExampleScripts\CreateSinShapedLineStrip.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShotBehavior" Collapsed="true">
+    <Position X="61.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAwAAAAIACAAAAAAAAAAAAAAAAAAAQANQAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VolumetricLines\ExampleScenes\ExampleScripts\ShotBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VolumetricLineSettings" Collapsed="true">
+    <Position X="63" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAEA=</HashCode>
+      <FileName>Assets\VolumetricLines\Scripts\VolumetricLineSettings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="WalkSoundController" Collapsed="true">
+    <Position X="50.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAIAAAAAAAAABwAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\WalkSoundController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityChan.AutoBlink" Collapsed="true">
+    <Position X="52.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAUBAAAgACAAAEAACAAAIBDAAAhAAiCAAAEAAEAAAEA=</HashCode>
+      <FileName>Assets\Character Resources\unity-chan!\Unity-chan! Model\Scripts\AutoBlink.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityChan.CameraController" Collapsed="true">
+    <Position X="54.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAuEAAAgCAAAAAAAAAAAEAAAAAACAAAIgIAA=</HashCode>
+      <FileName>Assets\Character Resources\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityChan.FaceUpdate" Collapsed="true">
+    <Position X="56" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACASAAAAAAAAAAAAhAAAEAAAAQCAQAAAAAA=</HashCode>
+      <FileName>Assets\Character Resources\unity-chan!\Unity-chan! Model\Scripts\FaceUpdate.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityChan.IdleChanger" Collapsed="true">
+    <Position X="50.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAIAAAAABAAAAIAAAAAQiAAAAAAAE=</HashCode>
+      <FileName>Assets\Character Resources\unity-chan!\Unity-chan! Model\Scripts\IdleChanger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityChan.IKCtrlRightHand" Collapsed="true">
+    <Position X="52.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAQAAAAAAEAAAAAAAAAAAAAAAAAAAAQCEAAgAAEA=</HashCode>
+      <FileName>Assets\Character Resources\unity-chan!\Unity-chan! Model\Scripts\IKCtrlRightHand.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityChan.RandomWind" Collapsed="true">
+    <Position X="63" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAACAAAAAAAAAAAAACAAAAABAA=</HashCode>
+      <FileName>Assets\Character Resources\unity-chan!\Unity-chan! Model\Scripts\RandomWind.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityChan.SpringBone" Collapsed="true">
+    <Position X="56" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAGCAAACCAAAAAAAACAhBAAACBYACAAEABEEAAAAEA=</HashCode>
+      <FileName>Assets\Character Resources\unity-chan!\Unity-chan! Model\Scripts\SpringBone.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityChan.SpringCollider" Collapsed="true">
+    <Position X="57.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Character Resources\unity-chan!\Unity-chan! Model\Scripts\SpringCollider.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityChan.SpringManager" Collapsed="true">
+    <Position X="59.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAACAACAAAAAQAAAAKAAAAAAAAAAAAADEAAAAAFA=</HashCode>
+      <FileName>Assets\Character Resources\unity-chan!\Unity-chan! Model\Scripts\SpringManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityChan.ThirdPersonCamera" Collapsed="true">
+    <Position X="56" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEACAAAiAAAAAAAIEAAAAgAAAAQBAAEAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Character Resources\unity-chan!\Unity-chan! Model\Scripts\ThirdPersonCamera.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityChan.UnityChanControlScriptWithRgidBody" Collapsed="true">
+    <Position X="52.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABJAAjACAAAEGAAAKQKEAABAAABBAUSAAAAAAAQ=</HashCode>
+      <FileName>Assets\Character Resources\unity-chan!\Unity-chan! Model\Scripts\UnityChanControlScriptWithRgidBody.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityChan.SplashScreen" Collapsed="true">
+    <Position X="54.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Character Resources\unity-chan!\Unity-chan! Model\SplashScreen\Scripts\SplashScreen.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MFlight.Demo.Hud" Collapsed="true">
+    <Position X="49" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAIAAAQAAIAAAEAAABAAAAAAAAAAAAAAAAAEAAEA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\3rd Party\MouseFlight\Demo\Scripts\Hud.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MFlight.Demo.Plane" Collapsed="true">
+    <Position X="64.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAEAwAAAAEAACIAAAAgAABAAUAAAABAAAAAQlA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\3rd Party\MouseFlight\Demo\Scripts\Plane.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MFlight.MouseFlightController" Collapsed="true">
+    <Position X="49" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QASEBAAoEgAQAAAQAACAIgJAAAAAAAAAMAAAEQEIAEA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\3rd Party\MouseFlight\Scripts\MouseFlightController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visualisation.Vis" Collapsed="true">
+    <Position X="59.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQEEAAAAEAAAAgEAAAAAgAQAACAAAAAAIEgCEAFABAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\Debug Viewer\Core\DebugViewer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visualisation.MeshGeneration.ArcMesh" Collapsed="true">
+    <Position X="50.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\Debug Viewer\Mesh Generators\CircleMesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visualisation.MeshGeneration.CylinderMesh" Collapsed="true">
+    <Position X="59.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\Debug Viewer\Mesh Generators\CylinderMesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visualisation.MeshGeneration.MeshUtility" Collapsed="true">
+    <Position X="63" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\Debug Viewer\Mesh Generators\MeshUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visualisation.MeshGeneration.RingMesh" Collapsed="true">
+    <Position X="50.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\Debug Viewer\Mesh Generators\RingMesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visualisation.MeshGeneration.SphereMesh" Collapsed="true">
+    <Position X="52.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAQAACAAAAAEAAAAAAAAAACAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\Debug Viewer\Mesh Generators\SphereMesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.GetSetAttribute" Collapsed="true">
+    <Position X="63" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Attributes\GetSetAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.MinAttribute" Collapsed="true">
+    <Position X="66.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Attributes\MinAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.TrackballAttribute" Collapsed="true">
+    <Position X="61.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Attributes\TrackballAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.TrackballGroupAttribute" Collapsed="true">
+    <Position X="63" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.AmbientOcclusionComponent" Collapsed="true">
+    <Position X="12.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAQAAAAAAIAAAIAgAAAAAABAAAAAAAEAAAICAABAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.BloomComponent" Collapsed="true">
+    <Position X="37" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAgAAAAAAIAAAGAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Components\BloomComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.BuiltinDebugViewsComponent" Collapsed="true">
+    <Position X="3.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgKAAAAAAAAAAAgAAAAAABAAAAAAIEAAQICAAJAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.ChromaticAberrationComponent" Collapsed="true">
+    <Position X="14.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAMAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.ColorGradingComponent" Collapsed="true">
+    <Position X="16.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEkAAiAAAABAQBAAAQICAAMAgIAgCAAIBAGgIAEBAEA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Components\ColorGradingComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.DepthOfFieldComponent" Collapsed="true">
+    <Position X="19" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAgAAAgBAQAAAAgAAAIAAAAAAQAAIAAAAICAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.DitheringComponent" Collapsed="true">
+    <Position X="21.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgUAAAAgBAAAAAAAAAAAAIAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Components\DitheringComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.EyeAdaptationComponent" Collapsed="true">
+    <Position X="23.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAIgAAQAAAAAIAIAIEAAACAAQIAAKAIAgAKAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.FogComponent" Collapsed="true">
+    <Position X="5.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAgAAAAAABAAAAAAAEAAAICAABAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Components\FogComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.FxaaComponent" Collapsed="true">
+    <Position X="25.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAIAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Components\FxaaComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.GrainComponent" Collapsed="true">
+    <Position X="28" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAIAAAAIACAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Components\GrainComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.MotionBlurComponent" Collapsed="true">
+    <Position X="7.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAQAgDAIAAABAAAAAAIEAAAIAgADAg=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Components\MotionBlurComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.ScreenSpaceReflectionComponent" Collapsed="true">
+    <Position X="10" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAACAAAAAIAgAAAAAABAAAAAAAEAQAIAAEDAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.TaaComponent" Collapsed="true">
+    <Position X="30.25" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AwAAAAAAAAAgAAAAAwGAAAAAABAAAACIABACYCgAEAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Components\TaaComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.UserLutComponent" Collapsed="true">
+    <Position X="32.5" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAACAIAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Components\UserLutComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.VignetteComponent" Collapsed="true">
+    <Position X="34.75" Y="18.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Components\VignetteComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.AmbientOcclusionModel" Collapsed="true">
+    <Position X="30.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.AntialiasingModel" Collapsed="true">
+    <Position X="32.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Models\AntialiasingModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.BloomModel" Collapsed="true">
+    <Position X="34.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Models\BloomModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.BuiltinDebugViewsModel" Collapsed="true">
+    <Position X="3.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAABgAAAAAAAAAAAACAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.ChromaticAberrationModel" Collapsed="true">
+    <Position X="5.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.ColorGradingModel" Collapsed="true">
+    <Position X="7.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAIAEAAAAAAACAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Models\ColorGradingModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.DepthOfFieldModel" Collapsed="true">
+    <Position X="10" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Models\DepthOfFieldModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.DitheringModel" Collapsed="true">
+    <Position X="12.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Models\DitheringModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.EyeAdaptationModel" Collapsed="true">
+    <Position X="14.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Models\EyeAdaptationModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.FogModel" Collapsed="true">
+    <Position X="16.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Models\FogModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.GrainModel" Collapsed="true">
+    <Position X="19" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Models\GrainModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.MotionBlurModel" Collapsed="true">
+    <Position X="21.25" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Models\MotionBlurModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.ScreenSpaceReflectionModel" Collapsed="true">
+    <Position X="23.5" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.UserLutModel" Collapsed="true">
+    <Position X="25.75" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Models\UserLutModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.VignetteModel" Collapsed="true">
+    <Position X="28" Y="12.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABgAAAAAAAAAAAACAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Models\VignetteModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.PostProcessingBehaviour" Collapsed="true">
+    <Position X="50.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AFKgAQBAQAAsQIAAAACkCACIgWCBGAUIACCEAARIHEA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\PostProcessingBehaviour.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.PostProcessingComponentBase" Collapsed="true">
+    <Position X="20.25" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAACAAAAAAgAAAAAAAAAAAAAIAAAAIAAACAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\PostProcessingComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.PostProcessingComponent&lt;T&gt;" Collapsed="true">
+    <Position X="20.25" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAACAAAIAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\PostProcessingComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.PostProcessingComponentCommandBuffer&lt;T&gt;" Collapsed="true">
+    <Position X="7.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAEAAAAAAABAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\PostProcessingComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.PostProcessingComponentRenderTexture&lt;T&gt;" Collapsed="true">
+    <Position X="25.75" Y="17.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\PostProcessingComponent.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.PostProcessingContext" Collapsed="true">
+    <Position X="52.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAgQABAQARAAAIIAAAAAAUAAAAAAAAAACAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\PostProcessingContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.PostProcessingModel" Collapsed="true">
+    <Position X="19" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAGAAAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\PostProcessingModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.PostProcessingProfile" Collapsed="true">
+    <Position X="54.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAUADBgAAAAAAAAAEAEgAAAAAAABAAAAAAAAAAAQAEA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\PostProcessingProfile.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.ColorGradingCurve" Collapsed="true">
+    <Position X="49" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAQAAAAAAAAAAAgAAQACAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Utils\ColorGradingCurve.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.GraphicsUtils" Collapsed="true">
+    <Position X="64.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAACCAAAAAAQAAAAAAAAABDAAAAAQQAAAAAAAg=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Utils\GraphicsUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.MaterialFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="59.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAACAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Utils\MaterialFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnityEngine.PostProcessing.RenderTextureFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="49" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAACAAAABAAAAAAAAAAAgAAAAAAAAAABAAAAA=</HashCode>
+      <FileName>Assets\NVJOB Water Shader SAF\Example Scenes\PostProcessing\Runtime\Utils\RenderTextureFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.AutonomousVehicle2D" Collapsed="true">
+    <Position X="27.25" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAgAAAIAAAABAEAAAAAARAAAAAAEAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\AutonomousVehicle2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.Biped2D" Collapsed="true">
+    <Position X="29.5" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAIAAAAAAAIAAAABAEAAAAAABAAAAAAECAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\Biped2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.DetectableObject2D" Collapsed="true">
+    <Position X="27.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgMAAAIAAAAAAAgAQAAAAQBAAAAAAAYAAAAAAEICkA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\DetectableObject2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.PassiveVehicle2D" Collapsed="true">
+    <Position X="25" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAIIAAAAAAAAAAAABAAAEAAAABAAAAAAEAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\PassiveVehicle2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.Radar2D" Collapsed="true">
+    <Position X="57.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAEABgAAqAAoAkgAQgQAYABHAIEAAAIADABQABASEA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\Radar2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForAlignment2D" Collapsed="true">
+    <Position X="15" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForAlignment2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForCohesion2D" Collapsed="true">
+    <Position X="17.25" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForCohesion2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForEvasion2D" Collapsed="true">
+    <Position X="37.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABECAAAABAAAAAEAAAAAAAAQAgAICAAAABAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForEvasion2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForFear2D" Collapsed="true">
+    <Position X="42" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAECAAAABAAAAAgAAAAAAAIAAgECAAIABEAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForFear2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForFollow2D" Collapsed="true">
+    <Position X="44.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAACAAQAEAAAAAAAAIAAAAIAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForFollow2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForForward2D" Collapsed="true">
+    <Position X="3.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAEAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForForward2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForMatchingVelocity2D" Collapsed="true">
+    <Position X="10.5" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForMatchingVelocity2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForMinimumSpeed2D" Collapsed="true">
+    <Position X="6" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAEAAAAAAAAAAAQAAAAAAAAAAiAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForMinimumSpeed2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForNeighborGroup2D" Collapsed="true">
+    <Position X="8.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAABAAMECAAAAAABAAQEAAAAAAAAAABIgACAAAIAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForNeighborGroup2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForNeighbors2D" Collapsed="true">
+    <Position X="13.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEEAEAAAAQAAACgAAAAAAQAAAAAAAAEAAAAAAEE=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForNeighbors2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForPathSimplified2D" Collapsed="true">
+    <Position X="19.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAICAYIAAAAAEAAAAAAAAQAQAAAAABAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForPathSimplified2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForPoint2D" Collapsed="true">
+    <Position X="21.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAgECAAAAAAAAAAAAAAAAEAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForPoint2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForPursuit2D" Collapsed="true">
+    <Position X="24" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAEAAAAgCgAAQAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForPursuit2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForRigidbodyEvasion2D" Collapsed="true">
+    <Position X="26.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABEAAAAABAAAAAEAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForRigidbodyEvasion2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForSeparation2D" Collapsed="true">
+    <Position X="12.75" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAAAAAAIAAAAIAAAAIAAAQEAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForSeparation2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForSpeed2D" Collapsed="true">
+    <Position X="28.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAIAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForSpeed2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForSpeedFluctuation2D" Collapsed="true">
+    <Position X="30.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACEAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForSpeedFluctuation2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForSphericalObstacles2D" Collapsed="true">
+    <Position X="33" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAGAAAAAAAAAAAgAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForSphericalObstacles2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForTether2D" Collapsed="true">
+    <Position X="35.25" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAEAAAAAAAAAAAAACAAAACAAAgACAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForTether2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.SteerForWander2D" Collapsed="true">
+    <Position X="39.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAgAEAAAKAEAAAAAAACIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\SteerForWander2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.Steering2D" Collapsed="true">
+    <Position X="24" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAECAAAAQUAAAAAQIABCIAEAQgAAAAAAAIAEA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\Steering2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.TickedVehicle2D" Collapsed="true">
+    <Position X="28.25" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAECAAAAgBAAIAAAChMEIABRAYIHAAQIAACAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\TickedVehicle2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Behaviors.Vehicle2D" Collapsed="true">
+    <Position X="27.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MBAEIGAIEAAQAAYDAQGEABiBAAgADIIAKGgAAAKECUI=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\Vehicle2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.OpenSteerUtility" Collapsed="true">
+    <Position X="59.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAgAAAAAEAAAABAAAAgAAAgUAAUAgAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\OpenSteerUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.SplinePathway" Collapsed="true">
+    <Position X="13.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAEAAAAIAAAAAAAgAAAAAAABAABCAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\SplinePathway.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Vector2Pathway" Collapsed="true">
+    <Position X="13.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoAAAAEAAAAQNABAAAAACAAIAAAAAAAQIBAABGAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Vector2Pathway.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnitySteer2D.Tools.DetectableObjectCreator2D" Collapsed="true">
+    <Position X="64.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Tools\DetectableObjectCreator2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Tools.RandomizeStartPosition2D" Collapsed="true">
+    <Position X="61.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Tools\RandomizeStartPosition2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer2D.Tools.Speedometer2D" Collapsed="true">
+    <Position X="50.75" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAACAAAAAAAgQEwQAAIABEAgAAQEIAAAAAAAACEA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Tools\Speedometer2D.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.AutonomousVehicle" Collapsed="true">
+    <Position X="17" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAgAAAIAAAABAEAAAAAARAAAAAAEAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\AutonomousVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.Biped" Collapsed="true">
+    <Position X="19.25" Y="24.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAIAAAAAAAIAAAABAEAAAAAABAAAAAAECAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\Biped.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.DetectableObject" Collapsed="true">
+    <Position X="19.25" Y="20.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAgMAAAIAAAAAAAgAQAAAAQBAAAAAAAYAAAAAAEICkA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\DetectableObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.PassiveVehicle" Collapsed="true">
+    <Position X="21.5" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAIAAAAAAAAAAAABAAAAAAAABAAAAAAEAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\PassiveVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.Radar" Collapsed="true">
+    <Position X="56" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AoAEABgAAqAgoAkgAQAQAYABHAIEAEAIADAAQABASEA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\Radar.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForAlignment" Collapsed="true">
+    <Position X="28.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForAlignment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForCharacterEvasion" Collapsed="true">
+    <Position X="44.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABEAAAAABAAAAAEAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForCharacterEvasion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForCohesion" Collapsed="true">
+    <Position X="21.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForCohesion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForEvasion" Collapsed="true">
+    <Position X="6" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABECAAAABAAAAAEAAAAAAAAQAgAICAAAABAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForEvasion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForFear" Collapsed="true">
+    <Position X="8.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAECAAIABAAAAAgAAAAAAAIAAgEiAAIABEAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForFear.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForForward" Collapsed="true">
+    <Position X="12.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAEAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForForward.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForMatchingVelocity" Collapsed="true">
+    <Position X="24" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForMatchingVelocity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForMinimumSpeed" Collapsed="true">
+    <Position X="15" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAABAAEAAAAAAAAAAAQAAAAAAAAAAiAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForMinimumSpeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForNavmesh" Collapsed="true">
+    <Position X="17.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEDAAAAJAAAAAAAAIEQAAAgggABAAAgAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForNavmesh.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForNeighborGroup" Collapsed="true">
+    <Position X="19.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAABAAMECAAAAAABAAQEAAAAAAAAAABIgACAAAIAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForNeighborGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForNeighbors" Collapsed="true">
+    <Position X="25.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAEEAEAAAAQAAACgAAAAAAQAAAAAAAAEAAAAAAEE=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForNeighbors.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForPathSimplified" Collapsed="true">
+    <Position X="30.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAICAYIAAAAAEAAAAAAAAQAQAAAAABAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForPathSimplified.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForPoint" Collapsed="true">
+    <Position X="33" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAIAAgECAAAAAAAAAAAAAAAAEAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForPoint.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForPursuit" Collapsed="true">
+    <Position X="35.25" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAEAAAAAAAAAAAEAAAAgCgAAQAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForPursuit.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForSeparation" Collapsed="true">
+    <Position X="26.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAACAAAAAAAAAIAAAAIAAAAIAAAQEAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForSeparation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForSpeed" Collapsed="true">
+    <Position X="37.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAIAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForSpeed.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForSpeedFluctuation" Collapsed="true">
+    <Position X="39.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACEAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForSpeedFluctuation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForSphericalObstacles" Collapsed="true">
+    <Position X="42" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAIAGAAAAAAAAAAAgAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForSphericalObstacles.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForTether" Collapsed="true">
+    <Position X="46.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAAAAEAAAAAAAAAAAAACAAAACAAAgACAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForTether.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerForWander" Collapsed="true">
+    <Position X="3.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAgAEAAAKAEAAAAAAACIAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerForWander.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.Steering" Collapsed="true">
+    <Position X="25.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAECAAAAQUAAAAAQIABCIAEAQgAAAAAAAIAEA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\Steering.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.SteerToFollow" Collapsed="true">
+    <Position X="10.5" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAACAAQAEAAAAAAAAIAAAAIAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\SteerToFollow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.TickedVehicle" Collapsed="true">
+    <Position X="18" Y="23.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQIAAAAECAAAAgBAAIAAAChMEIABRAYInAAQIAACAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\TickedVehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Behaviors.Vehicle" Collapsed="true">
+    <Position X="19.25" Y="22" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>sBAEAGAIEAAQAAYDAQGEABiBAAgACIIAKGgAAAKECUA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Behaviors\Vehicle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.OpenSteerUtility" Collapsed="true">
+    <Position X="57.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAgAAAAAEAAAABAAAAgAAAgUAAUAgAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\OpenSteerUtility.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.SplinePathway" Collapsed="true">
+    <Position X="10.75" Y="15.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAEAAAAIAAAAAAAgAAAAAAABAABCAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\SplinePathway.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Vector3Pathway" Collapsed="true">
+    <Position X="10.75" Y="14.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoAAAAEAAAAQNABAAAAACAAIAAAAAAAQIBAABGAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Vector3Pathway.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UnitySteer.Tools.DetectableObjectCreator" Collapsed="true">
+    <Position X="63" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Tools\DetectableObjectCreator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Tools.RandomizeStartPosition" Collapsed="true">
+    <Position X="59.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAACRAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Tools\RandomizeStartPosition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Tools.Speedometer" Collapsed="true">
+    <Position X="49" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAACAAAAAAAgQEwQAAIABEAgAAQEIAAAAAAAACEA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\Tools\Speedometer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Attributes.AngleCosineAttribute" Collapsed="true">
+    <Position X="10.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\Attributes\AngleCosineAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Attributes.RangeAttribute" Collapsed="true">
+    <Position X="10.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\Attributes\RangeAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Attributes.Vector2ToggleAttribute" Collapsed="true">
+    <Position X="56" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\Attributes\Vector2ToggleAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UnitySteer.Attributes.Vector3ToggleAttribute" Collapsed="true">
+    <Position X="57.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\Attributes\Vector3ToggleAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VolumetricLines.Utils.TransformExtensionMethods" Collapsed="true">
+    <Position X="64.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VolumetricLines\Scripts\Utils\TransformExtensionMethods.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VolumetricLines.VolumetricLineBehavior" Collapsed="true">
+    <Position X="61.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AUUNBgABgCAAQAAAAAkAEAAgAEAAEAAAAQAABEAAYAA=</HashCode>
+      <FileName>Assets\VolumetricLines\Scripts\VolumetricLineBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VolumetricLines.VolumetricLineStripBehavior" Collapsed="true">
+    <Position X="64.75" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQUNBAABgCAAQAAAAAkAAAAgAEAAEAAAAQAABEgQIAA=</HashCode>
+      <FileName>Assets\VolumetricLines\Scripts\VolumetricLineStripBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VolumetricLines.VolumetricLineVertexData" Collapsed="true">
+    <Position X="66.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAIAAAAAAABAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\VolumetricLines\Scripts\VolumetricLineVertexData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VolumetricLines.VolumetricMultiLineBehavior" Collapsed="true">
+    <Position X="49" Y="10.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQANAAAEgCAAQAAAAAkCAAAgAEAAEAACAQAAAEgQIAA=</HashCode>
+      <FileName>Assets\VolumetricLines\Scripts\VolumetricMultiLineBehavior.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="SimplexSettings" Collapsed="true">
+    <Position X="56" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAABAAAAAAwAAABAACAEAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\SimplexSettings.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="WorleySettings" Collapsed="true">
+    <Position X="57.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAwAAABBACAEAAAAAEAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\WorleySettings.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SerializableQuaternion" Collapsed="true">
+    <Position X="52.5" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAABAAAEAAAAAAAAAAAAAAAAAAhgAQAAgAA=</HashCode>
+      <FileName>Assets\SerializableQuaternion.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="SerializableVector3" Collapsed="true">
+    <Position X="54.25" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAEAAAAAAAAAAAABAAAAABgAQAAAAA=</HashCode>
+      <FileName>Assets\SerializableVector3.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UnitySteer2D.PathRelativePosition" Collapsed="true">
+    <Position X="49" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAACAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\IPathway.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Struct Name="UnitySteer.PathRelativePosition" Collapsed="true">
+    <Position X="50.75" Y="11.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAAAAAAAAAAAAAAAAACAAEAAAAAAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\IPathway.cs</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Interface Name="UnitySteer2D.IPathway" Collapsed="true">
+    <Position X="49" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoAAAAAAAAAAFABAAAAACAAAAAAAAAAQIBAABEAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\IPathway.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="UnitySteer.IPathway" Collapsed="true">
+    <Position X="50.75" Y="13" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAoAAAAAAAAAAFABAAAAACAAAAAAAAAAQIBAABEAAA=</HashCode>
+      <FileName>Assets\UnitySteer-development\3D\IPathway.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="UnityChan.MouseButtonDown" Collapsed="true">
+    <Position X="49" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAQgAAAAAA=</HashCode>
+      <FileName>Assets\Character Resources\unity-chan!\Unity-chan! Model\Scripts\CameraController.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Visualisation.Style" Collapsed="true">
+    <Position X="52.5" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\Nuvols\Scripts\Test\Debug Viewer\Core\DebugViewer.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="UnitySteer2D.Behaviors.SpriteForwardDirection" Collapsed="true">
+    <Position X="50.75" Y="14" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAACACAAAAAAAI=</HashCode>
+      <FileName>Assets\UnitySteer-development\2D\Behaviors\Vehicle2D.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
